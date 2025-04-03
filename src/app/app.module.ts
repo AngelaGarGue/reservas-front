@@ -9,8 +9,8 @@ import { routes } from './app.routes';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    TrabajadoresComponent
+    AppComponent, // Mueve AppComponent aquí
+    TrabajadoresComponent // Mueve TrabajadoresComponent aquí
   ],
   imports: [
     BrowserModule,
@@ -18,6 +18,6 @@ import { routes } from './app.routes';
     RouterModule.forRoot(routes)
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent] // Asegúrate de que AppComponent esté aquí si es el componente raíz
 })
 export class AppModule { }

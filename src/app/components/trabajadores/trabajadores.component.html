@@ -1,0 +1,17 @@
+<h2>👷 Lista de Trabajadores</h2>
+
+<div>
+  <input [(ngModel)]="nuevo.nombre" placeholder="Nombre">
+  <label>
+    <input type="checkbox" [(ngModel)]="nuevo.activo"> Activo
+  </label>
+  <button (click)="agregar()">Agregar</button>
+</div>
+
+<hr>
+
+<ul>
+  <li *ngFor="let t of trabajadores">
+    {{ t.nombre }} - {{ t.activo ? '✅ Activo' : '❌ Inactivo' }}
+  </li>
+</ul>

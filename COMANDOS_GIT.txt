@@ -1,0 +1,38 @@
+🧠 COMANDOS GIT BÁSICOS PARA TU PROYECTO - by ChatGPT
+
+✅ USO DIARIO PARA GUARDAR CAMBIOS EN GITHUB:
+
+1. Ver cambios realizados (opcional):
+   git status
+
+2. Añadir todos los cambios:
+   git add .
+
+3. Hacer un commit con un mensaje descriptivo:
+   git commit -m "Descripción de lo que hiciste"
+
+4. Subir los cambios a GitHub:
+   git push
+
+
+📌 EJEMPLO:
+
+git add .
+git commit -m "Agregado formulario de trabajadores"
+git push
+
+
+✅ SI CREÁS UN ARCHIVO NUEVO O MODIFICÁS CUALQUIER COSA:
+Repetí los 3 pasos de arriba.
+
+
+🔄 PARA VER EN QUÉ RAMA ESTÁS O ACTUALIZAR:
+
+- Ver la rama actual:
+  git branch
+
+- Traer cambios del repositorio remoto (por si trabajás desde otra compu también):
+  git pull
+
+
+🎉 ¡Listo! Ahora tenés control total sobre tu código y backups seguros en GitHub.

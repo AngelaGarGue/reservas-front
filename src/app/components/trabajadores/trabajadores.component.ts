@@ -4,8 +4,10 @@ import { Trabajador } from '../../models/trabajador';
 
 @Component({
   selector: 'app-trabajadores',
-  templateUrl: './trabajadores.component.html'
+  templateUrl: './trabajadores.component.html',
+  styleUrls: ['./trabajadores.component.css']
 })
+
 export class TrabajadoresComponent implements OnInit {
   trabajadores: Trabajador[] = [];
   nuevo: Trabajador = { nombre: '', activo: true };
